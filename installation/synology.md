@@ -3,6 +3,21 @@ layout: documentation
 title: Synology DiskStation
 ---
 
+updated Synology support:
+Java and Docker are not available in the newest software built. Container Manager is now mandotory. This package is just available for the following Synology systems:
+    Serie FS:FS6400, FS3600, FS3410, FS3400, FS3017, FS2500, FS2017, FS1018
+    Serie HD:HD6500
+    Serie SA:SA6400, SA3610, SA3600, SA3410, SA3400D, SA3400, SA3200D
+    Serie 24:DS224+, DS124
+    Serie 23:RS2423RP+, RS2423+, DS1823xs+, DS923+, DS723+, DS423+, DS423, DS223, DS223j
+    Serie 22:RS822RP+, RS822+, RS422+, DS3622xs+, DS2422+, DS1522+, DVA1622
+    Serie 21:RS4021xs+, RS3621xs+, RS3621RPxs, RS2821RP+, RS2421RP+, RS2421+, RS1221RP+, RS1221+, DS1821+, DS1621xs+, DS1621+, DVA3221
+    Serie 20:RS820RP+, RS820+, DS1520+, DS920+, DS720+, DS620slim, DS420+, DS420j, DS220+, DS220j, DS120j
+    Serie 19:RS1619xs+, RS1219+, DS2419+II, DS2419+, DS1819+, DS1019+, DVA3219
+    Serie 18:RS3618xs, RS2818RP+, RS2418RP+, RS2418+, RS818RP+, RS818+, DS3018xs, DS1618+, DS918+, DS718+, DS218+
+    Serie 17:RS18017xs+, RS4017xs+, RS3617xs+, RS3617RPxs, RS3617xs, DS3617xsII, DS3617xs, DS1817+, DS1517+
+    Serie 16:RS18016xs+, RS2416RP+, RS2416+, DS916+, DS716+II, DS716+, DS216+II, DS216+
+    
 :::tip Note
 
 openHAB 4.x series requires Java 17.
